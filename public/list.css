@@ -1,0 +1,66 @@
+.group {
+    background-color: lightyellow;
+    border-bottom: 1px;
+    border-bottom: solid;
+}
+
+.top {
+    background-color: whitesmoke;
+}
+
+body {
+    background-color: forestgreen;
+    background-size: cover;
+    /* margin: 0px; */
+    background-repeat: no-repeat;
+} 
+
+.navig {
+    position: relative;
+    display: inline;
+    margin-left:45%;
+    margin-top: 0px;
+    background-color: transparent;
+}
+
+form {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    align-items: center;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+button {
+    background-color: yellow;
+    color: forestgreen;
+    border: 1px;
+    border-radius: 30%;
+
+}
+#resultPlace {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.park-image {
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.park-card {
+    background-color: rgb(167, 232, 37);
+    width: 300px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+    <header class="top">
+        <nav class="group">
+            <ol>
+                <ul class="navig" id="thehom"><a href="./home.html">Home</a></ul>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <input type="text" id="name" placeholder="Add National park"/>
+
+            <input type="text" id="img" placeholder="Image url"/>
+
+            <button id="adding">Add</button>
+
+        </form>
+
+        <section id="resultPlace"></section>
+    </main>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="list.js"></script>
+</body>
+</html>

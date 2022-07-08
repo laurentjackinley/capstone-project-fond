@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Denali National Park, Alaska",
+        "imageURL": "https://www.nationalparktrips.com/wp-content/uploads/2021/11/Denali-Sunrise_TamShaneMorrison_2400.jpg?crop=535:301&width=1070&enable=upscale"
+    },
+    {
+        "id": 2,
+        "name": "Zion National Park, Utah",
+        "imageURL": "https://www.myutahparks.com/wp-content/uploads/2021/02/Zion-Watchman-swimmers_Tam19RichMartello_1600.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Bryce Canyon National Park, Utah",
+        "imageURL": "https://www.myutahparks.com/wp-content/uploads/2021/02/Bryce-Amphitheater-Inspiration-Point_DP_1600.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Arches National Park, Utah",
+        "imageURL": "https://www.myutahparks.com/wp-content/uploads/2021/02/Arches-DelicateArch-LaSalMountains_DP_1600.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Yellowstone National Park, Wyoming",
+        "imageURL": "https://www.yellowstonepark.com/wp-content/uploads/2021/02/YS-aerial-Prismatic-truecolors_UnsplashDanMeyers_2400.jpg?crop=16:9&width=1500"
+    },
+    {
+        "id": 6,
+        "name": "Redwood National Park, California",
+        "imageURL": "https://www.myyosemitepark.com/wp-content/uploads/2018/10/ca-redwood-forest_dp_680.jpg?crop=1:1&width=250&enable=upscale"
+    }
+]
