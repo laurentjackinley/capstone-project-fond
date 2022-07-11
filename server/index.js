@@ -15,6 +15,26 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/home.html'))
 })
 
+app.get('/css', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/home.css'))
+})
+
+app.get('/js', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/home.js'))
+})
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/MyList.html'))
+})
+
+app.get('/css', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/list.css'))
+})
+
+app.get('/js', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/list.js'))
+})
+
 app.get("/api/place", getPlace)
 app.get("/api/parks", getParks)
 app.post('/api/parks',createPark)
