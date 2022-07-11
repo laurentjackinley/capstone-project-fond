@@ -11,6 +11,10 @@ app.use(cors());
 const { getParks, createPark,deletePark} = require('./controller')
 const {getPlace} = require('./controllerh')
 
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/home.html'))
+})
+
 app.get("/api/place", getPlace)
 app.get("/api/parks", getParks)
 app.post('/api/parks',createPark)

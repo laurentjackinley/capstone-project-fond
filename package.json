@@ -5,5 +5,25 @@
     "express": "^4.18.1",
     "nodemon": "^2.0.19",
     "path": "^0.12.7"
-  }
+  },
+  "name": "project-retry",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurentjackinley/capstone-project-fond.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laurentjackinley/capstone-project-fond/issues"
+  },
+  "homepage": "https://github.com/laurentjackinley/capstone-project-fond#readme",
+  "description": ""
 }
