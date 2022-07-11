@@ -12,7 +12,7 @@ const { getParks, createPark,deletePark} = require('./controller')
 const {getPlace} = require('./controllerh')
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/home.html'))
+    res.sendFile(path.join(__dirname, '../home.html'))
 })
 
 app.get("/api/place", getPlace)
