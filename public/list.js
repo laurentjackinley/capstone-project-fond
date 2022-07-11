@@ -12,8 +12,8 @@ const createPark = body => axios.post(baseURL, body).then(parksCallback).catch(e
 
 const deletePark = id => axios.delete(`${baseURL}/${id}`).then(parksCallback).catch(errCallback)
 
-function mainCont(e) {
-    e.preventDefault()
+function mainCont(event) {
+    event.preventDefault()
     
     let name = document.querySelector('#name')
     let imageURL = document.querySelector('#img')

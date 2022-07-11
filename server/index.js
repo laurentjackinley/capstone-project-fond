@@ -9,9 +9,12 @@ app.use(cors());
 const { getParks, createPark,deletePark} = require('./controller')
 const {getPlace} = require('./controllerh')
 
-app.get("/api/place/", getPlace)
+app.get("/api/place", getPlace)
 app.get("/api/parks", getParks)
 app.post('/api/parks',createPark)
 app.delete("/api/parks/:id", deletePark)
 
-app.listen(4000, () => console.log('server running on port 4000'))
+const port = process.env.PORT || 4000
+app.listen(port, () => {
+    console.log(`server running on port ${port}`)
+})

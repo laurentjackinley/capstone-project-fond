@@ -17,7 +17,7 @@ module.exports = {
     deletePark: (req, res) => {
         let index = parks.findIndex(elem => elem.id === +req.params.id)
         parks.splice(index, 1)
-        res.status(200).send()
+        res.status(200).send(parks)
     },
     createPark: (req, res) => {
         let {name, imageURL} = req.body;
@@ -28,6 +28,6 @@ module.exports = {
         }
         parks.push(newPark)
         globalId++
-        res.status(200).send()
+        res.status(200).send(parks)
     }
 }
