@@ -6,7 +6,8 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const {getPlace, getParks, createPark,deletePark} = require('./controller')
+const { getParks, createPark,deletePark} = require('./controller')
+const {getPlace} = require('./controllerh')
 
 app.get("/api/place/", getPlace)
 app.get("/api/parks", getParks)
