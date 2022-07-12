@@ -28,5 +28,26 @@
         "id": 6,
         "name": "Redwood National Park, California",
         "imageURL": "https://www.myyosemitepark.com/wp-content/uploads/2018/10/ca-redwood-forest_dp_680.jpg?crop=1:1&width=250&enable=upscale"
+    },
+    {
+        "id": 7,
+        "name": "Ice Age Floods, Washington",
+        "imageURL": "https://www.nps.gov/iafl/planyourvisit/images/Dry_Falls.JPG?maxwidth=650&autorotate=false&quality=78&format=webp"
+    },
+    {
+        "id": 8,
+        "name": "Grand Canyon, Arizona",
+        "imageURL": "https://www.nps.gov/grca/planyourvisit/images/powell-pt-640.jpg?maxwidth=650&autorotate=false&quality=78&format=webp"
+    },
+    {
+        "id": 9,
+        "name": "Lake Clark",
+        "imageURL": "https://www.nps.gov/lacl/images/LACL_2018_LakeClark_TiaVaughn.jpg?maxwidth=1200&maxheight=1200&autorotate=false"
+    },
+    {
+        "id": 10,
+        "name": "Capitol Reef",
+        "imageURL": "https://www.nps.gov/common/uploads/grid_builder/care/crop1_1/9C736A27-B0CE-E607-D2411B6A1DF7508B.jpg?width=640&quality=90&mode=crop"
     }
+
 ]

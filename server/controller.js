@@ -1,4 +1,5 @@
 const parks = require('./db.json')
+const visitedParks = require('./newdb.json')
 
 let globalId = 7
 module.exports = {
@@ -16,6 +17,7 @@ module.exports = {
     },
     deletePark: (req, res) => {
         let index = parks.findIndex(elem => elem.id === +req.params.id)
+        let delOne = deletePark.push(visitedParks)
         parks.splice(index, 1)
         res.status(200).send(parks)
     },
