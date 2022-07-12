@@ -17,16 +17,20 @@ function mainCont(event) {
     
     let name = document.querySelector('#name')
     let imageURL = document.querySelector('#img')
+    let idea = document.querySelector('#idea')
     
     let bodyObj = {
         name: name.value,
-        imageURL: imageURL.value
+        imageURL: imageURL.value,
+        idea: idea.value
+
     }
     
     createPark(bodyObj)
     
     name.value = ''
     imageURL.value = ''
+    idea.value = ''
 }
 
 function createParkCard(park) {
@@ -35,37 +39,11 @@ function createParkCard(park) {
     
     parkCard.innerHTML = `<img alt='a park image' src= ${park.imageURL} class = "park-image"/>
     <p class="name">${park.name}</p>
+    <p class= "idea">${park.idea}</p>
     <button onclick="deletePark(${park.id})">delete</button>`
     
     resultPlace.appendChild(parkCard)
 }
-
-// function createParksCallback(datares) {
-//     const arr = datares.data
-//     console.log(arr)
-//     resultPlace.innerHTML= ``
-//     for (let i = 0; i < arr.length; i++){
-//         createParkCard(arr[i]) 
-//     }
-// }
-
-// function deleteParksCallback(deldata){
-//     const arr = deldata.data
-//     console.log(arr)
-//     resultPlace.innerHTML= ``
-//     for (let i = 0; i < arr.length; i++){
-//         createParkCard(arr[i]) 
-//     }
-//  }
-
-// function parksCallback(result) {
-//     const arr = result.data
-//     console.log(arr)
-//     resultPlace.innerHTML = ``
-//     for (let i = 0; i < arr.length; i++) {
-//         createParkCard(arr[i])
-//     }
-// }
 
 function displayParks(arr){
     resultPlace.innerHTML =``
