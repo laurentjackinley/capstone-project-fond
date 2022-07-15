@@ -2,53 +2,63 @@
     {
         "id": 1,
         "name": "Denali National Park, Alaska",
-        "imageURL": "https://www.nationalparktrips.com/wp-content/uploads/2021/11/Denali-Sunrise_TamShaneMorrison_2400.jpg?crop=535:301&width=1070&enable=upscale"
+        "imageURL": "https://www.nationalparktrips.com/wp-content/uploads/2021/11/Denali-Sunrise_TamShaneMorrison_2400.jpg?crop=535:301&width=1070&enable=upscale",
+        "idea": ""
     },
     {
         "id": 2,
         "name": "Zion National Park, Utah",
-        "imageURL": "https://www.myutahparks.com/wp-content/uploads/2021/02/Zion-Watchman-swimmers_Tam19RichMartello_1600.jpg"
+        "imageURL": "https://www.myutahparks.com/wp-content/uploads/2021/02/Zion-Watchman-swimmers_Tam19RichMartello_1600.jpg",
+        "idea": ""
     },
     {
         "id": 3,
         "name": "Bryce Canyon National Park, Utah",
-        "imageURL": "https://www.myutahparks.com/wp-content/uploads/2021/02/Bryce-Amphitheater-Inspiration-Point_DP_1600.jpg"
+        "imageURL": "https://www.myutahparks.com/wp-content/uploads/2021/02/Bryce-Amphitheater-Inspiration-Point_DP_1600.jpg",
+        "idea": ""
     },
     {
         "id": 4,
         "name": "Arches National Park, Utah",
-        "imageURL": "https://www.myutahparks.com/wp-content/uploads/2021/02/Arches-DelicateArch-LaSalMountains_DP_1600.jpg"
+        "imageURL": "https://www.myutahparks.com/wp-content/uploads/2021/02/Arches-DelicateArch-LaSalMountains_DP_1600.jpg",
+        "idea": ""
         
     },
     {
         "id": 5,
         "name": "Yellowstone National Park, Wyoming",
-        "imageURL": "https://www.yellowstonepark.com/wp-content/uploads/2021/02/YS-aerial-Prismatic-truecolors_UnsplashDanMeyers_2400.jpg?crop=16:9&width=1500"
+        "imageURL": "https://www.yellowstonepark.com/wp-content/uploads/2021/02/YS-aerial-Prismatic-truecolors_UnsplashDanMeyers_2400.jpg?crop=16:9&width=1500",
+        "idea": ""
     },
     {
         "id": 6,
         "name": "Redwood National Park, California",
-        "imageURL": "https://www.myyosemitepark.com/wp-content/uploads/2018/10/ca-redwood-forest_dp_680.jpg?crop=1:1&width=250&enable=upscale"
+        "imageURL": "https://www.myyosemitepark.com/wp-content/uploads/2018/10/ca-redwood-forest_dp_680.jpg?crop=1:1&width=250&enable=upscale",
+        "idea": ""
     },
     {
         "id": 7,
         "name": "Ice Age Floods, Washington",
-        "imageURL": "https://www.nps.gov/iafl/planyourvisit/images/Dry_Falls.JPG?maxwidth=650&autorotate=false&quality=78&format=webp"
+        "imageURL": "https://www.nps.gov/iafl/planyourvisit/images/Dry_Falls.JPG?maxwidth=650&autorotate=false&quality=78&format=webp",
+        "idea": ""
     },
     {
         "id": 8,
         "name": "Grand Canyon, Arizona",
-        "imageURL": "https://www.nps.gov/grca/planyourvisit/images/powell-pt-640.jpg?maxwidth=650&autorotate=false&quality=78&format=webp"
+        "imageURL": "https://www.nps.gov/grca/planyourvisit/images/powell-pt-640.jpg?maxwidth=650&autorotate=false&quality=78&format=webp",
+        "idea": ""
     },
     {
         "id": 9,
-        "name": "Lake Clark",
-        "imageURL": "https://www.nps.gov/lacl/images/LACL_2018_LakeClark_TiaVaughn.jpg?maxwidth=1200&maxheight=1200&autorotate=false"
+        "name": "Lake Clark, Alaska",
+        "imageURL": "https://www.nps.gov/lacl/images/LACL_2018_LakeClark_TiaVaughn.jpg?maxwidth=1200&maxheight=1200&autorotate=false",
+        "idea": ""
     },
     {
         "id": 10,
-        "name": "Capitol Reef",
-        "imageURL": "https://www.nps.gov/common/uploads/grid_builder/care/crop1_1/9C736A27-B0CE-E607-D2411B6A1DF7508B.jpg?width=640&quality=90&mode=crop"
+        "name": "Capitol Reef, Utah",
+        "imageURL": "https://www.nps.gov/common/uploads/grid_builder/care/crop1_1/9C736A27-B0CE-E607-D2411B6A1DF7508B.jpg?width=640&quality=90&mode=crop",
+        "idea": ""
     }
 
 ]

@@ -39,6 +39,7 @@ function createParkCard(park) {
     
     parkCard.innerHTML = `<img alt='a park image' src= ${park.imageURL} class = "park-image"/>
     <p class="name">${park.name}</p>
+    <p class="idea">${park.idea}</p>
     <button onclick="deletePark(${park.id})">delete</button>`
     
     resultPlace.appendChild(parkCard)
